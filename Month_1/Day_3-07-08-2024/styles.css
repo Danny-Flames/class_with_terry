@@ -1,0 +1,9 @@
+
+.container {
+    background-color: orangered;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    border: 1px solid darkblue;
+    padding: 10px;
+}

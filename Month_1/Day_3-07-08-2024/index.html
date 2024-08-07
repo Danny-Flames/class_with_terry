@@ -1,14 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 3 - Month 1 </title>
-</head>
-<body>
-        <!-- <h2>Hey</h2> -->
-        <!-- <div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3 - Month 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .play_box {
+        border-color: 1px solid forestgreen;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        font-size: 24px;
+        font-weight: 800;
+        border-radius: 10px;
+      }
+
+      #play_box {
+        border: 1px solid black;
+        background-color: #fafafa;
+        color: indigo;
+        font-size: 28px;
+        font-weight: 700;
+        border-radius: 8px;
+        padding: 30px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h2>Hey</h2> -->
+    <!-- <div>
             my name
         </div> -->
-</body>
+    <div>
+      <h2>HTML CSS</h2>
+      <p>There are three ways to style your HTML document which are:</p>
+      <p>
+        We'll be using 'ul' html elements which means 'Unordered list'. <br />
+        The 'li' elements inside means 'List item'
+      </p>
+      <ul>
+        <li>Inline styling</li>
+        <li>Internal styling</li>
+        <li>External styling</li>
+      </ul>
+
+      <div style="background-color: green; color: white">
+        <b>Inline styling</b> is the type of styling whereby you pass in the
+        'style' attribute to the opening tag and write all of your styles there.
+        This text section is styled by an inline styling
+      </div>
+      <div class="play_box">
+        <p>
+          <b>Internal styling</b> is the type of styling whereby you either give
+          a 'class' or an 'id' attribute to the element you wish to style.
+        </p>
+        <p>
+          This is done by writing the styles for the element inside the 'style'
+          element in the 'head' element of the HTML document.
+        </p>
+      </div>
+
+      <div id="play_box">
+        This is a div with an id of play_box.
+
+        <p>
+          Note that when working with internal stylings, you use a dot(.) for an
+          element with a 'class' attribute and a hash(#) for an eleent with an id
+          attribute.
+        </p>
+      </div>
+
+      <div>
+        <p class="container">
+            External styling are styles done in an external css style sheet. <br />
+            This div element containing all these texts will be styled using an external styling method. <br />
+            This method also uses 'id' or 'class' to style the element
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

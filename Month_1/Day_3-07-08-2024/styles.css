@@ -7,3 +7,9 @@
     border: 1px solid darkblue;
     padding: 10px;
 }
+
+.my_work {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid black;
+}
